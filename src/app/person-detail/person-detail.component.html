@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p>Name: {{personDetail.name}}</p>
+            <p>Title: {{personDetail.title}}</p>
+            <p>Description: {{personDetail.description}}</p>
+            <img src={{personDetail.photoUrl}} alt={{personDetail.name}} class="img-thumbnail" /> <br />
+            <a href="#" [routerLink]="['/']" class="card-link">Back to Main</a>
+        </div>
+    </div>
+</div>
